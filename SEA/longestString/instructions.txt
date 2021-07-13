@@ -1,0 +1,15 @@
+Find the longest string that can be made up of other strings from the array
+Difficulty Level : Hard
+Last Updated : 16 Jul, 2019
+Given an array of strings arr[], the task is to find the largest string in the array which is made up of the other strings from the array after concatenating one after another. If no such string exists then print -1.
+
+Examples:
+
+Input: arr[] = {“geeks”, “for”, “geeksfor”, “geeksforgeeks”}
+Output: geeksforgeeks
+“geeksforgeeks” is made up of (“geeks” + “for” + “geeks”).
+Even though “geeksfor” is also made up of other strings
+but it is not the largest string.
+
+Input: arr[] = {“Hey”, “you”, “stop”, “right”, “there”}
+Output : -1
