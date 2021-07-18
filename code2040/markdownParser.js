@@ -16,17 +16,3 @@ function markdownParser(markdown) {
 
   return `<h${tagCount}>${header}</h${tagCount}>`;
 }
-
-/**
-   * let assert = require("chai").assert;
-describe('Markdown Headers', function() {
-  it('basic_valid_cases', function() {
-    assert.deepEqual(markdownParser("# header"), "<h1>header</h1>");
-    assert.deepEqual(markdownParser("## smaller header"), "<h2>smaller header</h2>");
-  });
-  it('basic_invalid_cases', function() {
-    assert.deepEqual(markdownParser("#Invalid"), "#Invalid");
-  });
-});
-   *  
-   * */
